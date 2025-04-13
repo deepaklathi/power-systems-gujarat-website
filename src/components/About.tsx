@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ExternalLink, Award, BookOpen } from "lucide-react";
 
@@ -33,7 +32,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-brand-lightBlue hover:text-brand-blue"
               >
-                View Research Paper <ExternalLink className="h-4 w-4 ml-1" />
+                View PhD Research Thesis <ExternalLink className="h-4 w-4 ml-1" />
               </a>
             </div>
             
