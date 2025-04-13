@@ -64,14 +64,14 @@ const Contact = () => {
               <div className="flex items-start gap-4">
                 <Linkedin className="h-5 w-5 text-brand-orange mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-medium text-brand-blue">LinkedIn</h4>
+                  <h4 className="font-medium text-brand-blue">LinkedIn Profile</h4>
                   <a 
                     href="https://www.linkedin.com/in/deepak-lathi-1136262/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-brand-darkGray hover:text-brand-blue"
                   >
-                    Dr. Deepak Lathi
+                    https://www.linkedin.com/in/deepak-lathi-1136262/
                   </a>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Contact = () => {
           <div>
             <div className="rounded-lg overflow-hidden h-[400px] shadow-md">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.304512369717!2d72.52014007506535!3d23.012929879177164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b267ef7f2c3%3A0x25c1bd0d87426f61!2sPrernatirth%20Derasar!5e0!3m2!1sen!2sin!4v1713098041372!5m2!1sen!2sin" 
+                src="https://maps.app.goo.gl/FUqabFTLiaQV8Mix9" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }}

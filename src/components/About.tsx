@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ExternalLink, Award, BookOpen } from "lucide-react";
 
@@ -68,7 +69,7 @@ const About = () => {
               </div>
               <div className="space-y-6 mt-12">
                 <img 
-                  src="https://web.archive.org/web/20230426045211im_/https://lh3.googleusercontent.com/p/AF1QipO7IUezsIyb2-P_9gF1-vnNnJky6qG6uPbQ8eWK=w960-h960-n-o-v1" 
+                  src="https://web.archive.org/web/20230426045248im_/https://lh3.googleusercontent.com/p/AF1QipO7IUezsIyb2-P_9gF1-vnNnJky6qG6uPbQ8eWK=w960-h960-n-o-v1" 
                   alt="Electrical equipment" 
                   className="rounded-lg shadow-md object-cover w-full h-[200px]"
                 />
