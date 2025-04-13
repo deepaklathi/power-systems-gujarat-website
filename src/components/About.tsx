@@ -74,7 +74,7 @@ const About = () => {
                   className="rounded-lg shadow-md object-cover w-full h-[200px]"
                 />
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D4D16AQFMHAV0-FzATw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1678007035334?e=1750291200&v=beta&t=sYYPUosS75-qlf8aEalLeblzuI4pEPlCWAY7aDlZPU0" 
+                  src="https://web.archive.org/web/20230426045253im_/https://lh3.googleusercontent.com/p/AF1QipPiDQkt5Xgkqnk_uT7xfnZbAluneNjGNvp-w4Ud=w1080-h608-p-no-v0" 
                   alt="Electrical substation" 
                   className="rounded-lg shadow-md object-cover w-full h-[200px]"
                 />

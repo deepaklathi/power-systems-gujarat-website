@@ -93,12 +93,13 @@ const Contact = () => {
           <div>
             <div className="rounded-lg overflow-hidden h-[400px] shadow-md">
               <iframe 
-                src="https://maps.app.goo.gl/FUqabFTLiaQV8Mix9" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.1097030487463!2d72.51210217438374!3d23.019743916435555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b2dd821b283%3A0xf95ab3c3de15d5a!2sSharanam-8!5e0!3m2!1sen!2sin!4v1744569814562!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }}
                 allowFullScreen 
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Power Systems Reliability Evaluators map location"
               ></iframe>
             </div>
