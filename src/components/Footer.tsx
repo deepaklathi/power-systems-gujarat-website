@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Zap, ArrowUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -27,6 +28,7 @@ const Footer = () => {
             <a href="#services" className="hover:text-brand-orange transition-colors">Services</a>
             <a href="#about" className="hover:text-brand-orange transition-colors">About</a>
             <a href="#contact" className="hover:text-brand-orange transition-colors">Contact</a>
+            <Link to="/sitemap" className="hover:text-brand-orange transition-colors">Sitemap</Link>
           </div>
         </div>
         

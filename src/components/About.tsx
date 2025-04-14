@@ -54,29 +54,45 @@ const About = () => {
           </div>
           
           <div>
-            <div className="grid grid-cols-2 gap-6 h-full">
-              <div className="space-y-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* First row - 2 images side by side */}
+              <div>
                 <img 
                   src="https://web.archive.org/web/20230426045211im_/https://lh3.googleusercontent.com/p/AF1QipO5qjvC_9tb4WXaANtHOHAkBipR6MIw4Ytxzuca=w960-h960-n-o-v1" 
                   alt="Electrical equipment" 
-                  className="rounded-lg shadow-md object-cover w-full h-[200px]"
+                  className="rounded-lg shadow-md object-cover w-full h-[180px]"
                 />
+              </div>
+              <div>
                 <img 
                   src="https://web.archive.org/web/20230426045211im_/https://lh3.googleusercontent.com/p/AF1QipPFXeFzcbdwTySAATbtCkg2cn9hN7PytCT1bpre=w960-h960-n-o-v1" 
                   alt="Electrical testing" 
-                  className="rounded-lg shadow-md object-cover w-full h-[200px]"
+                  className="rounded-lg shadow-md object-cover w-full h-[180px]"
                 />
               </div>
-              <div className="space-y-6 mt-12">
+              
+              {/* Second row - 2 images side by side */}
+              <div>
                 <img 
                   src="https://web.archive.org/web/20230426045248im_/https://lh3.googleusercontent.com/p/AF1QipO7IUezsIyb2-P_9gF1-vnNnJky6qG6uPbQ8eWK=w960-h960-n-o-v1" 
                   alt="Electrical equipment" 
-                  className="rounded-lg shadow-md object-cover w-full h-[200px]"
+                  className="rounded-lg shadow-md object-cover w-full h-[180px]"
                 />
+              </div>
+              <div>
                 <img 
                   src="https://web.archive.org/web/20230426045253im_/https://lh3.googleusercontent.com/p/AF1QipPiDQkt5Xgkqnk_uT7xfnZbAluneNjGNvp-w4Ud=w1080-h608-p-no-v0" 
                   alt="Electrical substation" 
-                  className="rounded-lg shadow-md object-cover w-full h-[200px]"
+                  className="rounded-lg shadow-md object-cover w-full h-[180px]"
+                />
+              </div>
+              
+              {/* Third row - 1 image centered */}
+              <div className="sm:col-span-2 mt-4">
+                <img 
+                  src="https://media.licdn.com/dms/image/v2/D4D16AQFMHAV0-FzATw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1678007035334?e=1750291200&v=beta&t=sYYPUosS75-qlf8aEalLeblzuI4pEPlCWAY7aDlZPU0" 
+                  alt="Power systems equipment" 
+                  className="rounded-lg shadow-md object-cover w-full h-[200px] mx-auto"
                 />
               </div>
             </div>
